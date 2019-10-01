@@ -1,0 +1,57 @@
+.box{
+    
+   position: absolute;
+    animation: a1 25s ease-in  infinite;
+    
+}
+
+@keyframes a1{
+    20%{
+        background-color: rgba(70, 46, 46, 0.527);
+      
+    }
+
+    25%{
+        background-color: rgb(97, 94, 94);
+        transform: 
+    }
+
+    40%{
+        background-color: rgb(14, 47, 53);
+        color:rgb(245, 223, 223);
+       
+    }
+   
+    55%{
+        background-color: rgb(94, 80, 80);
+        
+    }
+  
+    60%{
+        background-color: rgb(190, 231, 173);
+        color:rgb(41, 17, 17);
+    }
+    70%{
+        
+        transform:scale(0.3);
+        
+    }
+    
+    75%{
+        background-color: rgba(137, 245, 236, 0.562);
+        color:rgb(48, 44, 44);
+    
+       
+    }
+   
+    80%{
+        transform:scale(1);
+        
+
+    }
+    90%{
+        background-color: rgb(151, 115, 252);
+    }
+   
+}
+
